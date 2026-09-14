@@ -31,7 +31,3 @@ for name in names:
 # Exercise_4
 list_com = [len(name) for name in names]
 print(list_com)
-
-# Use a list comprehension to create a new list containing the lengths of each word
-# in the 'names' list. Print the resulting list.
-
