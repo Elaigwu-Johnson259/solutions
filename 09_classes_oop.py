@@ -41,3 +41,13 @@ admin1.show_privileges()
 # Add an attribute 'privileges' initialized as a list: ["can add post", "can delete post", "can ban user"].
 # Add a method 'show_privileges' that prints the admin's privileges.
 # Instantiate an Admin object and" call 'show_privileges()'.
+        print(f"His name is {self.first_name} {self.last_name} and {self.username} is his username")
+
+    greet = greet_user()
+        
+
+# TODO: Exercise 1
+# Create a class named 'User' with attributes: 'first_name', 'last_name', and 'username'.
+# Add an __init__ method to initialize these attributes.
+# Add a method 'describe_user' that prints a summary of the user's information.
+# Add a method 'greet_user' that prints a personalized greeting.
