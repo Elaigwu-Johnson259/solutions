@@ -6,3 +6,6 @@ def calculate_total(score):
 
 print(calculate_total(5))
 
+
+calculate_fee = lambda tuition, registration: f"₦{tuition + registration}"
+print(calculate_fee(150000, 25000))
